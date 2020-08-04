@@ -1,0 +1,124 @@
+{
+    "base_items": [
+        "log",
+        "iron_ingot",
+        "cobblestone",
+        "redstone",
+        "stone",
+        "quartz",
+        "sand",
+        "gold_ingot",
+        "dirt",
+        "bamboo"
+    ],
+    "craftable_items": [
+        {
+            "name": "hopper",
+            "recipe": {
+                "iron_ingot": 5,
+                "chest": 1
+            },
+            "output": 1
+        },
+        {
+            "name": "chest",
+            "recipe": {
+                "planks": 8
+            },
+            "output": 1
+        },
+        {
+            "name": "planks",
+            "recipe": {
+                "log": 1
+            },
+            "output": 4
+        },
+        {
+            "name": "furnace",
+            "recipe": {
+                "cobblestone": 8
+            },
+            "output": 1
+        },
+        {
+            "name": "comparator",
+            "recipe": {
+                "redstone_torch": 3,
+                "stone": 3,
+                "quartz": 1
+            },
+            "output": 1
+        },
+        {
+            "name": "redstone_torch",
+            "recipe": {
+                "redstone": 1,
+                "stick": 1
+            },
+            "output": 1
+        },
+        {
+            "name": "stick",
+            "recipe": {
+                "planks": 2
+            },
+            "output": 4
+        },
+        {
+            "name": "repeater",
+            "recipe": {
+                "redstone_torch": 2,
+                "redstone": 1,
+                "stone": 3
+            },
+            "output": 1
+        },
+        {
+            "name": "glass",
+            "recipe": {
+                "sand": 1
+            },
+            "output": 1
+        },
+        {
+            "name": "rail",
+            "recipe": {
+                "iron_ingot": 6,
+                "stick": 1
+            },
+            "output": 16
+        },
+        {
+            "name": "golden_rail",
+            "recipe": {
+                "gold_ingot": 6,
+                "redstone": 1,
+                "stick": 1
+            },
+            "output": 6
+        },
+        {
+            "name": "redstone_block",
+            "recipe": {
+                "redstone": 9
+            },
+            "output": 1
+        },
+        {
+            "name": "hopper_minecart",
+            "recipe": {
+                "hopper": 1,
+                "minecart": 1
+            },
+            "output": 1
+        },
+        {
+            "name": "minecart",
+            "recipe": {
+                "iron_ingot": 5
+            },
+            "output": 1
+        }
+    ]
+}
